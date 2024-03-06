@@ -302,6 +302,12 @@ h2 {
     border-radius: 5px;
 }
 
+.advertising {
+    text-align: center;
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+}
+
 .testimonial {
     padding: 100px;
     text-align: center;

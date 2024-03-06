@@ -46,6 +46,25 @@ img {
     font-weight: 800;
 }
 
+.social-login {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-btn, .login-btn, .register-btn {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 5px 10px;
+    background-color: #98CE21;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.social-btn:hover, .login-btn:hover, .register-btn:hover {
+    background-color: #13462E;
+}
+
 .menu .navbar ul li {
     position: relative;
     float: left;

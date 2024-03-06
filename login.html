@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/css/login.css">
+    <script src="js/login.js"></script>
+</head>
+<body>
+    <div class="formulario">
+        <h1>Inicio de Sesion</h1>
+        <form method="post">
+            <div class="username">
+                <input type="text" required>
+                <label>Nombre de Usuario</label>
+            </div>
+            <div class="username">
+                <input type="password" required>
+                <label>Contraseña</label>
+            </div>
+            <div class="recordar">¿Ha olvidado su contraseña?</div>
+            <input type="submit" value="Iniciar">
+            <div class="registrarse">
+                Quiero <a href="#">registrarme</a>
+            </div>
+        </form>
+    </div>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Por favor, ingrese su correo electrónico para recuperar su contraseña:</p>
+            <input type="email" placeholder="Correo electrónico" required>
+            <button id="recover-btn">Recuperar Contraseña</button>
+        </div>
+    </div>
+</html>

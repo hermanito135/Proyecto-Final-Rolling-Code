@@ -3,28 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="/css/login.css">
+    <title>Recuperar Contraseña</title>
+    <link rel="stylesheet" href="/css/olvide-contraseña.css">
     <script src="js/login.js"></script>
 </head>
 <body>
     <div class="formulario">
-        <h1>Inicio de Sesion</h1>
+        <h1>Recuperar Contraseña</h1>
         <form method="post">
+            <p>Por favor, ingrese su correo electrónico para recuperar su contraseña:</p>
             <div class="username">
-                <input type="text" required>
-                <label>Nombre de Usuario</label>
+                <input type="email" placeholder="Correo electrónico" required>
             </div>
-            <div class="username">
-                <input type="password" required>
-                <label>Contraseña</label>
-            </div>
-            <div class="recordar">¿Ha olvidado su contraseña?</div> <a href="olvide-contraseña.html">¡Recuperala Ahora!</a>
-            <input type="submit" value="Iniciar">
-            <div class="registrarse">
-                Quiero <a href="#">registrarme</a>
-            </div>
+            <input type="submit" value="Recuperar Contraseña">
         </form>
+        <div class="registrarse">
+            <a href="#">Volver al inicio de sesión</a>
+        </div>
     </div>
     <div id="modal" class="modal">
         <div class="modal-content">
@@ -34,4 +29,5 @@
             <button id="recover-btn">Recuperar Contraseña</button>
         </div>
     </div>
+</body>
 </html>

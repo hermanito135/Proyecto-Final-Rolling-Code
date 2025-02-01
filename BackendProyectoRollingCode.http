@@ -1,0 +1,6 @@
+@BackendProyectoRollingCode_HostAddress = http://localhost:5114
+
+GET {{BackendProyectoRollingCode_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
